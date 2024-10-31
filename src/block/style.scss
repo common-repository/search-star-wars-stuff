@@ -1,0 +1,19 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.starWarsWidget{
+    ul{
+        padding-left:0;
+    }
+}
+
+//align center
+.aligncenter{
+    .starWarsWidget{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

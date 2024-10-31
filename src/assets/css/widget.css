@@ -1,0 +1,102 @@
+.starWarsWidget {
+  border: 0.125rem inset black;
+  min-height: 12.5rem;
+  padding: 1.125rem 2.25rem 1.125rem 2.25rem;
+  max-width: 20.25rem;
+  background: white;
+}
+.starWarsWidget form .starWarsWidgetHeader {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 1.7rem;
+  color: black;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.starWarsWidget form .starWarsSearchBar {
+  border: 0.125rem outset black;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.starWarsWidget form .starWarsSearchBar:focus {
+  border: 0.125rem outset lightblue;
+  outline: none;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.starWarsWidget ul {
+  font-family: "Libre Caslon Text", serif;
+  margin-top: 2rem;
+}
+.starWarsWidget ul li {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+.starWarsWidget ul li .starWarsLeftCol {
+  font-weight: 700;
+  text-align: left;
+  font-size: 1rem;
+}
+.starWarsWidget ul li .starWarsRightCol {
+  text-align: right;
+  font-weight: 400;
+  align-self: end;
+  font-size: 1rem;
+}
+
+.starWarsWidget form .starWarsHeader323PX {
+  font-size: 1.4rem;
+}
+.starWarsWidget form .starWarsInput323px {
+  font-size: 1.03rem;
+}
+.starWarsWidget ul li .starWarsLeftCol323px {
+  font-size: 0.824rem;
+}
+.starWarsWidget ul li .starWarsRightCol323px {
+  font-size: 0.824rem;
+}
+
+.starWarsUiMenu323PX {
+  font-size: 1.03rem;
+}
+
+.starWarsWidget form .starWarsHeader288PX {
+  font-size: 1rem;
+}
+.starWarsWidget form .starWarsInput288px {
+  font-size: 0.735rem;
+}
+.starWarsWidget ul li .starWarsLeftCol288px {
+  font-size: 0.588rem;
+}
+.starWarsWidget ul li .starWarsRightCol288px {
+  font-size: 0.588rem;
+}
+
+.starWarsUiMenu288PX {
+  font-size: 0.735rem;
+}
+
+.ui-helper-hidden-accessible {
+  position: absolute;
+  left: -999rem;
+}
+
+.ui-menu-item:hover, .auto-complete-active {
+  background: lightblue;
+  border: 0.063rem outset black;
+  margin: 0;
+  padding: 0.5rem 0 0 0rem;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.ui-menu-item {
+  margin: 0;
+  padding: 0.5rem 0 0 0rem;
+  font-family: "Libre Caslon Text", serif;
+}
+
+/*# sourceMappingURL=widget.css.map */
